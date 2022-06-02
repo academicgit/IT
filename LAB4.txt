@@ -1,0 +1,52 @@
+x=input("Enter the value of x::')
+
+
+if (x >=0) then
+
+
+disp ("x is positive"),
+
+
+else
+
+
+disp ("x is negative ");
+
+
+end
+
+[dayNum,dayString]-weekday(datenum()); 
+
+select dayString
+
+case "Mon" then
+
+disp("Start of work week");
+
+case "Tue" then 
+
+disp("Day2");
+
+case "Wed" then 
+
+disp("Day3");
+
+case "Thu" then
+
+
+disp("Day4");
+
+
+case "Fri" then
+
+
+disp("Last day of work week"
+
+
+else
+
+
+disp("Weekend");
+
+
+end
