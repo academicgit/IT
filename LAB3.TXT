@@ -1,0 +1,67 @@
+A input("Enter the Matrix A::');
+
+
+B= input("Enter the Matrix B::");
+
+
+// Find the size of matrices
+
+
+disp('The size of Matrix A is..... :);
+
+
+disp(size(A));
+
+
+disp("The size of Matrix B is......");
+
+
+disp(size(B));
+
+
+// Addition of two matrices
+
+
+disp('Addition of A and B Matrices is......");
+
+
+disp(A + B);
+
+
+// Subtration of two matrices
+
+
+disp('Subtraction of A and B Matrices is.....:: ');
+
+disp(A-B);
+
+
+//Multiplication (ELEMENT BY ELEMENT) of two matrices 
+
+disp("Multiplication of A and B Matrices is.....:: ");
+disp(A. B);
+
+
+// Finding the Rank of the matrix 
+
+disp('Rank of Matrix A is ::'");
+disp(rank(A));
+
+
+// Find the determinant of the matrix
+
+
+disp('Determinant of Matrix A is ::):
+disp(det(A));
+
+
+// Find the trace of the matrix
+
+
+disp(Trace of Matrix A is ::'); 
+disp(trace(A)); 
+
+//Find the Inverse of the matrix 
+
+disp('Inverse of Matrix A is ::'); 
+disp(inv(A));
