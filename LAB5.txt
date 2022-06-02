@@ -1,0 +1,56 @@
+function fact=fac(n)
+
+
+fact =1;
+
+
+i=1;
+
+
+while i<=n
+
+
+i=i+1;
+
+
+fact=fact*i; endfunction
+
+
+end
+
+// part 2
+
+function [k]=fact1(a)
+
+
+k=-1;
+
+
+if(a<0|a>170) then elseif (a==0|a==1) then
+
+
+disp('INVALID');
+
+
+break;
+
+
+k=1;
+
+
+else
+
+
+k=a*fact1(a-1);
+
+
+end
+
+
+endfunction
+
+
+a=input("Enter the value;"); disp(p,'Factorial value is:');
+
+
+p=fact1(a);
