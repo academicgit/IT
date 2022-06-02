@@ -1,0 +1,29 @@
+A = input('Enter no A ::');
+B = input('Enter no B ::');
+// Addition of two Numbers
+disp('Addition is :: ');
+disp(A + B);
+// Finding Tangent
+disp('Tangent Value is ::');
+disp(tan(B));
+// Division of two Numbers
+disp('Division is ::');
+disp(A/B);
+// Finding Product of two Numbers
+disp('Product is ::');
+disp(prod(A*B));
+// Find the Inverse of a Number
+disp('Inverse of A is ::');
+disp(inv(A));
+// Finding Exponential
+disp('Exponential is ::');
+disp(exp(A));
+// Finding Logarithm
+disp('Lograthim is ::');
+disp(log(B));
+// Finding Sine value 
+disp('Sine Value is ::');
+disp(sin(A));
+// Finding Cosine value
+disp('Cosine value is ::');
+disp(cos(A))
